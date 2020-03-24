@@ -370,8 +370,12 @@ a.white {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/background.png')  no-repeat;
-	background-size: contain;
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/background.png') ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+	/* background-size: contain; */
 }
 
 .header .header-content {
@@ -405,6 +409,13 @@ a.white {
 	margin-bottom: 1.25rem;
 }
 
+.home-text-1{
+  font-size: 2.2rem;
+}
+
+.home-text-2{
+  font-size: 2.3rem;
+}
 
 
 /*********************/
@@ -614,7 +625,7 @@ a:hover.back-to-top {
   border: 1px;
   border-style: dashed; */
   width: 19rem;
-  height: 11.5rem;
+  height: auto;
   /* margin-left: 5.5rem; */
   margin-left: auto;
   margin-right: auto;
@@ -628,11 +639,16 @@ a:hover.back-to-top {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 1rem;
+}
+
+.sub-text{
+  font-size: 1.2rem;
+
 }
 
 .buttons-container{
   padding-top: 1.5rem;
+  padding-bottom: 10px;
   /* margin-left: 9.5rem; */
   margin-left: auto;
 margin-right: auto;
@@ -677,12 +693,13 @@ text-align: center;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   /* margin: 4px 2px; */
   cursor: pointer;
   border-radius: 8px;
+  width: 7rem;
 }
 
 .social-icon{
@@ -693,9 +710,7 @@ text-align: center;
   padding-right: 1rem;
 }
 
-.home-text{
-  font-size: 2rem;
-}
+
 
 .bold-header{
   font-size: 3.3rem;
@@ -716,7 +731,7 @@ text-align: center;
   }
   .video-container {
     width: 19rem;
-    height: 11.5rem;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     /* margin-left: 0rem; */
@@ -901,7 +916,7 @@ text-align: center;
 @media (max-width: 991px) and (min-width: 768px){
   .video-container {
     width: 19rem;
-    height: 11.5rem;
+    height: auto;
     margin-left: 0rem;
     /* margin-left: auto; */
     margin-right: auto;
