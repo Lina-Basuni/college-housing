@@ -369,6 +369,22 @@ a.white {
 	margin-right: 0.125rem;
 }
 
+.main-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+   /* Footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;            /* Footer height */
+}
 
 /*********************/
 /*    04. Header     */
@@ -652,7 +668,7 @@ a:hover.back-to-top {
 
 .buttons-container{
   padding-top: 1.5rem;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   /* margin-left: 9.5rem; */
   margin-left: auto;
 margin-right: auto;
@@ -671,6 +687,7 @@ text-align: center;
 }
 
 .footer-container{
+  background-color: #002C51;
   padding-top: 1rem;
   text-align: left;
   padding-left: 3rem;
@@ -679,7 +696,7 @@ text-align: center;
 }
 
 .footer-text{
-  width: 75%;
+  width: 70%;
   float: left;
   text-align: left;
 }
