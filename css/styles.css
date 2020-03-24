@@ -628,7 +628,7 @@ a:hover.back-to-top {
   /* border-color: white;
   border: 1px;
   border-style: dashed; */
-  width: 19rem;
+  width: 22rem;
   height: auto;
   /* margin-left: 5.5rem; */
   margin-left: auto;
@@ -734,7 +734,7 @@ text-align: center;
     text-align: left;
   }
   .video-container {
-    width: 19rem;
+    width: 22rem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -919,7 +919,7 @@ text-align: center;
 /* Max-width = 991 - Min-width =768 */
 @media (max-width: 991px) and (min-width: 768px){
   .video-container {
-    width: 19rem;
+    width: 22rem;
     height: auto;
     margin-left: 0rem;
     /* margin-left: auto; */
