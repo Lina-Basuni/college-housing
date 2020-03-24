@@ -87,6 +87,10 @@ h6 {
 	font: 700 1rem/1.5rem , sans-serif;
 }
 
+button:hover{
+  background-color: white;
+}
+
 a {
 	color: #f1f1f8;
 	text-decoration: underline;
