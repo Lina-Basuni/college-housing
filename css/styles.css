@@ -77,7 +77,7 @@ h4 {
 }
 
 h5 {
-	color: #f1f1f8;
+	color: black;
 	font: 700 1.125rem/1.625rem , sans-serif;
 }
 
@@ -106,6 +106,21 @@ a.white {
 
 .modal-text{
   color: black;
+}
+
+.modal-welcome-text{
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.contact-info-item{
+  margin-bottom: 2px;
+}
+
+.modal-form{
+  padding-top: 2rem;
 }
 
 .btn-solid-reg {
@@ -362,6 +377,10 @@ a.white {
 }
 
 .header .text-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 	/* margin-bottom: 3rem; */
 }
 
@@ -592,20 +611,28 @@ a:hover.back-to-top {
   border-style: dashed; */
   width: 19rem;
   height: 11.5rem;
-  margin-left: 5.5rem;
+  /* margin-left: 5.5rem; */
+  margin-left: auto;
+  margin-right: auto;
   /* background: url('../images/video.png') center center no-repeat; */
 }
 .video{
   width: inherit;
 }
 .sub-text-container{
-  margin-left: 11rem;
+  /* margin-left: 11rem; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-size: 1rem;
 }
 
 .buttons-container{
   padding-top: 1.5rem;
-  margin-left: 9.5rem;
+  /* margin-left: 9.5rem; */
+  margin-left: auto;
+margin-right: auto;
+text-align: center;
 }
 
 .footer {
@@ -686,17 +713,25 @@ a:hover.back-to-top {
   .video-container {
     width: 19rem;
     height: 11.5rem;
+    margin-left: auto;
+    margin-right: auto;
     /* margin-left: 0rem; */
     /* background: url(../images/video.png) center center no-repeat; */
   }
   .sub-text-container {
     /* margin-left: 0rem; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     font-size: 1rem;
     width: 18rem;
     /* text-align: center; */
     padding-top: 0.3rem;
   }
   .buttons-container {
+    margin-left: auto;
+margin-right: auto;
+text-align: center;
     padding-top: 0.6rem;
     width: 19rem;
     height: 11.5rem;
@@ -839,8 +874,11 @@ a:hover.back-to-top {
 	}
 
 	.header .text-container {
+    margin-left: 0rem;
+    margin-right: auto;
+    text-align: center;
 		/* margin-top: 6.5rem; */
-    margin-left: 5.5rem;
+    /* margin-left: 5.5rem; */
 	}
 	/* end of header */
 
@@ -861,20 +899,35 @@ a:hover.back-to-top {
     width: 19rem;
     height: 11.5rem;
     margin-left: 0rem;
+    /* margin-left: auto; */
+    margin-right: auto;
     /* background: url(../images/video.png) center center no-repeat; */
   }
   .sub-text-container {
+    /* margin-left: 0rem;
+     */
+     margin-left: 0rem;
+     /* margin-left: auto; */
+     margin-right: auto;
+     text-align: center;
+     font-size: 1rem;
+     width: 18rem;
+     text-align: center;
+     padding-top: 0.3rem;
+  }
+  .header .text-container{
     margin-left: 0rem;
-    font-size: 1rem;
-    width: 18rem;
-    text-align: center;
-    padding-top: 0.3rem;
+    /* margin-left: auto; */
+    margin-right: auto;
+    text-align: left;
   }
   .buttons-container {
     padding-top: 0.6rem;
     width: 19rem;
     height: 11.5rem;
     margin-left: 0rem;
+    /* margin-left: auto; */
+    margin-right: auto;
     text-align: center;
     /* background: url(../images/video.png) center center no-repeat; */
   }
