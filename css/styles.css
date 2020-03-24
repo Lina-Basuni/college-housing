@@ -897,12 +897,20 @@ a:hover.back-to-top {
   }
 
   .sub-text-container {
-    margin-left: 0rem;
+    /* margin-left: 0rem; */
     font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
   .buttons-container {
     padding-top: 0rem;
-    margin-left: 0rem;
+    /* margin-left: 0rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
   .button-1{
     font-size: 16px;
@@ -910,6 +918,17 @@ a:hover.back-to-top {
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .video-container {
+     /* width: 19rem; */
+    height: auto;
+    /* margin-left:0rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* background: url(../images/video.png) center center no-repeat; */
   }
 }
 @media (max-width: 1092px) and (min-width: 768px) {
