@@ -109,6 +109,10 @@ a.white {
 	color: #fff;
 }
 
+#myModal{
+  background-color: none;
+}
+
 .modal-text{
   color: black;
 }
@@ -721,6 +725,18 @@ text-align: center;
   cursor: pointer;
   border-radius: 8px;
   width: 7rem;
+  border:  #F4D357 !important;
+  border-color:  #F4D357 !important;
+  border-style: solid !important;
+
+}
+
+.button-1:hover {
+  background-color: white !important;
+  color: #212529 !important;
+  border:  #F4D357 !important;
+  border-color:  #F4D357 !important;
+  border-style: solid !important;
 }
 
 .social-icon{
@@ -976,6 +992,15 @@ text-align: center;
 
 @media (max-width: 767px) and (min-width: 0px) {
 
+  .navbar-custom .navbar-brand.logo-image img {
+    width:200px;
+  	/* height: 34px; */
+  	margin-bottom: 1px;
+    padding-left: 2rem;
+
+  	-webkit-backface-visibility: hidden;
+  }
+
   .header{
     background-image: none;
     background-color: #327DBE;
@@ -984,6 +1009,7 @@ text-align: center;
     height: 4.5rem;
   }
   .footer-text {
+    padding-left: 0rem;
       width: 100%;
       text-align: center;
   }
