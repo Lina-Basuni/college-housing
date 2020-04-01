@@ -129,34 +129,34 @@
                                         </div>
                                       </div>
                                       <div class="col-lg-6">
-                                        <form class="modal-form">
+                                        <form name="submit-to-google-sheet" role="form" id="test-form" class="modal-form">
                                           <!-- <div class="modal-text">
                                             Send Message
                                           </div> -->
                                           <div class="form-group modal-text">
                                             <!-- <label for="name" class="col-form-label modal-text">Name:</label> -->
-                                            <input type="text" class="form-control" id="name" placeholder="Name">
+                                            <input type="text" name="Name" class="form-control" id="name" placeholder="Name">
                                           </div>
                                           <div class="form-group modal-text">
                                             <!-- <label for="email" class="col-form-label modal-text">Email:</label> -->
-                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                            <input type="email" name="Email" class="form-control" id="email" placeholder="Email">
                                           </div>
                                           <div class="form-group modal-text">
                                             <!-- <label for="phone" class="col-form-label modal-text">Phone:</label> -->
-                                            <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                                            <input type="phone" name="Phone" class="form-control" id="phone" placeholder="Phone">
                                           </div>
                                           <div class="form-group">
                                             <!-- <label for="message-text" class="col-form-label modal-text">Message:</label> -->
-                                            <textarea class="form-control modal-text" id="message-text" placeholder="Message"></textarea>
+                                            <textarea class="form-control modal-text" name="Message" id="message-text" placeholder="Message"></textarea>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="button-1 btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button id="submit-form" type="submit" class="button-1 btn btn-primary">Submit</button>
                                           </div>
                                         </form>
                                       </div>
 
                                     </div>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="button-1 btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="submit" class="button-1 btn btn-primary">Submit</button>
                                   </div>
                                 </div>
                               </div>
@@ -196,6 +196,7 @@
         <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
         <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
         <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <script src="js\google_script_form_ajax.js"></script> <!-- Custom scripts -->
 
     </div>
   </div>
